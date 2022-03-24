@@ -1,12 +1,55 @@
-ul li{
+
+.list{
+  list-style: none;
   background-color: black;
-  display: inline-table;
-  position: relative;
-  right: 50px;
-  bottom: 12px;
+  color: #FFFF;
   font-size: 30px;
-  color: red;
-  width: 300px;
+  position: relative;
+  right: 47px;
+  bottom: 12px;
+  height: 40px;
+
+}
+.list1{
+  list-style: none;
+  background-color: black;
+  color: #FFFF;
+  font-size: 30px;
+  position: relative;
+  left: 40px;
+  height: 40px;
+  bottom: 52px;
+
+}
+.list2{
+  list-style: none;
+  background-color: black;
+  color: #FFFF;
+  font-size: 30px;
+  position: relative;
+  left: 130px;
+  height: 40px;
+  bottom: 92px;
+
+}
+.list3{
+  list-style: none;
+  background-color: black;
+  color: #F0FFFF;
+  font-size: 30px;
+  height: 40px;
+  position: relative;
+  left: 240px;
+  bottom: 132px;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+h1{
+  position: relative;
+  bottom: 120px;
 }
 
 p{
@@ -15,10 +58,15 @@ p{
   text-align: justify;
   column-width: 300px;
   column-rule: 2px solid black;
+  position: relative;
+  bottom: 110px;
+
 }
 footer{
   background-color: black;
   color: white;
   text-align: center;
   height: 50px;
+  position: relative;
+  bottom: 110px;
 }
